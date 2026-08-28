@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analía Elizabeth Fernández · Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="portfolio-personal.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#inicio" class="logo">AF<span class="logo-dot">.</span></a>
+
+      <ul class="nav-links">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Mis Habilidades</a></li>
+        <li><a href="#sobre-mi-extra">Más allá del código</a></li>
+        <li><a href="#proyectos">Proyectos destacados</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+
+      <a href="https://github.com/Analia-Elizabeth-Fernandez" target="_blank" rel="noopener" class="btn-github">
+        <svg viewBox="0 0 16 16" width="18" height="18" aria-hidden="true">
+          <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+            0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+            1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15
+            -.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82
+            2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48
+            0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg>
+        Ver GitHub
+      </a>
+    </nav>
+
+    <div id="inicio" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Hola, soy</p>
+        <h1>Analía Elizabeth Fernández</h1>
+        <!-- Texto animado por JS (efecto máquina de escribir), ver script al final -->
+        <p class="role">
+          <span id="typed-text"></span><span class="cursor" aria-hidden="true">|</span>
+        </p>
+        <p class="hero-desc">
+          Desarrolladora web Full Stack Junior, actualmente estudiando Desarrollo de Software.
+          Me gusta convertir ideas en interfaces prolijas, funcionales y con personalidad propia.
+        </p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn-primary">Hablemos</a>
+          <a href="#proyectos" class="btn btn-secondary">Ver proyectos</a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <img src="foto-perfil.png" alt="Retrato de Analía Elizabeth Fernández" class="foto-perfil">
+        <span class="sticker-badge">Disponible ✓</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="sobre-mi" class="section">
+      <h2 class="section-title">Sobre mí</h2>
+      <p class="about-text">
+        Soy desarrolladora web Full Stack Junior y actualmente estudio Desarrollo de Software,
+        me encuentro ampliando mis habilidades y profundizando en proyectos reales. Me apasiona crear
+        experiencias digitales funcionales, modernas y visualmente atractivas, aplicando lo
+        que aprendo en cada proyecto que comparto en mi GitHub.
+      </p>
+    </section>
+
+    <section id="habilidades" class="section">
+      <h2 class="section-title">Mis Habilidades</h2>
+      <ul class="skills-grid">
+        <li class="skill-chip">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Logo de HTML5" loading="lazy">
+          <span>HTML</span>
+        </li>
+        <li class="skill-chip">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="Logo de CSS3" loading="lazy">
+          <span>CSS</span>
+        </li>
+        <li class="skill-chip">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Logo de JavaScript" loading="lazy">
+          <span>JavaScript</span>
+        </li>
+        <li class="skill-chip">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="Logo de React" loading="lazy">
+          <span>React</span>
+        </li>
+        <li class="skill-chip">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Logo de Python" loading="lazy">
+          <span>Python</span>
+        </li>
+        <li class="skill-chip">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Logo de Java" loading="lazy">
+          <span>Java</span>
+        </li>
+        <li class="skill-chip">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="Logo de C#" loading="lazy">
+          <span>C#</span>
+        </li>
+        <li class="skill-chip">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Logo de Node.js" loading="lazy">
+          <span>Node</span>
+        </li>
+        <li class="skill-chip">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="Logo de MySQL" loading="lazy">
+          <span>MySQL</span>
+        </li>
+        <li class="skill-chip">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Logo de Figma" loading="lazy">
+          <span>Figma</span>
+        </li>
+        <li class="skill-chip">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Logo de Jira" loading="lazy">
+          <span>Jira</span>
+        </li>
+        <li class="skill-chip">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Logo de Git" loading="lazy">
+          <span>Git</span>
+        </li>
+        <li class="skill-chip">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Logo de GitHub" loading="lazy">
+          <span>GitHub</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="sobre-mi-extra" class="section">
+  <h2 class="section-title">Más allá del código</h2>
+  <p class="section-subtitle">Otras cosas que disfruto, además de programar.</p>
+
+  <div class="extra-cards">
+    <article class="extra-card extra-card--1">
+      <span class="extra-card-icon">🧱</span>
+      <h3>Construcción</h3>
+      <p>Soy Maestro Mayor de Obras y trabajo en la Construcción. Me gusta resolver problemas: mejorar cosas en casa, arreglar lo que se rompe y buscarle la vuelta hasta encontrar la solución.</p>
+    </article>
+
+    <article class="extra-card extra-card--2">
+      <span class="extra-card-icon">🚶</span>
+      <h3>Caminatas</h3>
+      <p>Salgo a caminar al aire libre siempre que puedo. Es mi forma de desconectar y pensar con la cabeza despejada.</p>
+    </article>
+
+    <article class="extra-card extra-card--3">
+      <span class="extra-card-icon">🎹</span>
+      <h3>Piano</h3>
+      <p>Toco piano como otra disciplina que me obliga a practicar, equivocarme y mejorar con el tiempo.</p>
+    </article>
+  </div>
+</section>
+
+    <section id="proyectos" class="section">
+      <h2 class="section-title">Proyectos destacados</h2>
+      <p class="section-subtitle">Algunos de los proyectos en los que trabajé.</p>
+
+      <div class="projects-list">
+        <article class="project-card">
+          <a href="https://obeliscotours.netlify.app/" target="_blank" rel="noopener" class="project-link">
+            <img src="proyecto-ecommerce-turismo.png" alt="Captura del sitio E-commerce Turismo" class="project-image" loading="lazy">
+          </a>
+          <div class="project-info">
+            <h3>🛒 E-commerce Turismo</h3>
+            <p>Sitio web de turismo desarrollado con HTML, CSS y JavaScript. Diseño responsive y estructura preparada para e-commerce.</p>
+            <a href="https://obeliscotours.netlify.app/" target="_blank" rel="noopener" class="project-cta">Ver proyecto →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <a href="https://clases-particulares.netlify.app/" target="_blank" rel="noopener" class="project-link">
+            <img src="proyecto-profesora-particular.png" alt="Captura del sitio Profesora Particular Online" class="project-image" loading="lazy">
+          </a>
+          <div class="project-info">
+            <h3>🎓 Profesora Particular Online</h3>
+            <p>Página informativa y responsive con integración de WhatsApp, que facilita consultas directas y aumenta la inscripción de alumnos.</p>
+            <a href="https://clases-particulares.netlify.app/" target="_blank" rel="noopener" class="project-cta">Ver proyecto →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+      <h2 class="section-title">Contactame 🚀</h2>
+      <p class="section-subtitle">
+        Si tenés un proyecto en mente o una consulta, escribime y lo charlamos.
+      </p>
+
+      <form class="contact-form" action="https://formspree.io/f/meoqzblj" method="POST">
+        <div class="form-field">
+          <label for="name">Tu nombre</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-field">
+          <label for="email">Tu email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-field">
+          <label for="message">Tu mensaje</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-icons">
+      <a href="https://github.com/Analia-Elizabeth-Fernandez" target="_blank" rel="noopener">
+        <img src="https://cdn.simpleicons.org/github/FFFFFF" alt="Perfil de GitHub">
+      </a>
+      <a href="https://www.linkedin.com/in/analia-elizabeth-fernandez/" target="_blank" rel="noopener">
+        <img src="linkedin.png" alt="Perfil de LinkedIn">
+      </a>
+      <a href="mailto:anfer510.dev@gmail.com">
+        <img src="gmail.png" alt="Enviar email">
+      </a>
+      <a href="https://wa.me/5491167981270" target="_blank" rel="noopener">
+        <img src="whatsapp.png" alt="Contactar por WhatsApp">
+      </a>
+    </div>
+
+    <p class="footer-text">© 2026 Analía Elizabeth Fernández · Portfolio personal</p>
+  </footer>
+
+  <script>
+    const phrases = ["Desarrolladora Web", "Front-End con base Full Stack"];
+    const typedText = document.getElementById("typed-text");
+
+    let phraseIndex = 0;
+    let charIndex = 0;  
+    let deleting = false; 
+
+    function type() {
+      const current = phrases[phraseIndex];
+      charIndex += deleting ? -1 : 1;
+      typedText.textContent = current.substring(0, charIndex);
+
+      let speed = deleting ? 60 : 110; // velocidad de escritura/borrado en ms
+
+      if (!deleting && charIndex === current.length) {
+        deleting = true;
+        speed = 1800;
+      } else if (deleting && charIndex === 0) {
+        deleting = false;
+        phraseIndex = (phraseIndex + 1) % phrases.length;
+        speed = 400;
+      }
+
+      setTimeout(type, speed);
+    }
+
+    type();
+  </script>
+
+</body>
+</html>
